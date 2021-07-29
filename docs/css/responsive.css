@@ -76,6 +76,17 @@
 
     #lateral{
         width:90%;
+        margin:0px auto;
+    }
+    #search input[type="text"]{
+        width:80%;
+    }
+    #login input[type="email"],
+    #login input[type="password"]{
+        width:85%;
+    }
+    #login input[type="reset"]{
+        display:none;
     }
 
     #articles{
@@ -88,15 +99,18 @@
         font-size:15px;
     }
     footer .footerBox{
-        width: 25%;
-        height:400px;
+        width: 23%;
+        height:380px;
     }
     .footerBox h3{
-        font-size:13px;
+        width:100%;
+        font-size:8px;
     }
-    
-    .footerBox > ul a{
+    #footerMenu li{
         font-size:20px;
+    }
+    #footerMenu > ul a{
+        font-size:15px;
     }
     .footerBox iframe{
         height:260px;
@@ -107,9 +121,9 @@
         height: 70px;
     }
     #images img{
-        width:25px;
+        width:16px;
     }
     #autor p{
-        font-size:20px;
+        font-size:10px;
     }
 }
