@@ -55,6 +55,9 @@ body{
     font-family:"BebasNeu";
     color:white;
 }
+#logoMenu{
+    display:none;
+}
 
 #logo{
     float:left;

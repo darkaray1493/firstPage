@@ -1,0 +1,115 @@
+@media(max-width:530px){
+    .wrap{
+        width:90%;
+        margin:0px auto;
+    }
+    #logo{
+        float:right;
+        width:60%;
+    }
+    #logoMenu{
+        display:block;
+        float:left;
+        background-color:#37bcf9;
+        color:white;
+        width:30%;
+        height:55px;
+        margin-top:8px;
+        text-align:center;
+        cursor:pointer;
+        border-radius:5px;
+    }
+    #logoMenu p{
+        font-size:45px;
+        line-height:45px;
+    }
+    /**En cuanto se vea  java script  para  ocultal el menu de opciones
+    y mostrarlo cuando se  de  click  sobre el  boton se  completará esta parte
+    por lo pronto se  ocultara  el menu por mera  estetica**/
+    #nav{
+        background-color:darkgrey;
+        float:none;
+        width:35%;
+        height:auto;
+        position:absolute;
+        margin-top:8px;
+        border-radius:0px 0px 10px 0px;
+        transform: translateY(20%);
+        display: none;
+    }
+    #nav .list li{
+        color:black;
+        width:100%;
+        margin:0px 10px 0px 10px;
+    }
+    #nav .list li a{
+        color:white;
+    }
+
+    
+    #banner{
+        display:block;
+    }
+
+    #banner h1{
+        text-align: center;
+        width:90%;
+        font-size:18px;
+        letter-spacing:2px;
+        font-weight:normal;
+        text-shadow:2px 2px 1px black;
+        margin: 25px auto;
+    }
+
+    .cards{
+        width:90%;
+        height:260px;
+        margin:20px auto;
+        margin-left:25px;
+    }
+    .cards .category{
+        font-size:50px;
+    }
+    .cards .descrip{
+        display:none;
+    }
+
+    #lateral{
+        width:90%;
+    }
+
+    #articles{
+        width:95%;
+    }
+    #articles h3 a{
+        font-size:20px;
+    }
+    #articles .data{
+        font-size:15px;
+    }
+    footer .footerBox{
+        width: 25%;
+        height:400px;
+    }
+    .footerBox h3{
+        font-size:13px;
+    }
+    
+    .footerBox > ul a{
+        font-size:20px;
+    }
+    .footerBox iframe{
+        height:260px;
+    }
+    
+    #html{
+        width:80%;
+        height: 70px;
+    }
+    #images img{
+        width:25px;
+    }
+    #autor p{
+        font-size:20px;
+    }
+}
